@@ -61,7 +61,7 @@
       title:    'Reparación de Cámaras Frigorífico',
       category: 'Servicio técnico especializado',
       desc:     'Cámaras de frío comerciales e industriales. Reparación de compresor, carga de gas, sistemas de frío y controles. Servicio urgente disponible.',
-      img:      'images/heladera.jpg',
+      img:      'images/camara.webp',
       imgAlt:   'Reparación de cámara frigorífico en Buenos Aires',
       waText:   'Hola%2C%20necesito%20reparar%20una%20c%C3%A1mara%20frigor%C3%ADfico',
       tags:     ['Comerciales', 'Industriales', 'Urgencias', 'Todas las marcas'],
