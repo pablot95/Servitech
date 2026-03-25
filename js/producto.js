@@ -134,8 +134,22 @@
     var prod = PRODUCTOS[id] || PRODUCTOS[DEFAULT_ID];
 
     /* Meta */
+    var pageUrl = 'https://servitechba.com/producto.html?id=' + id;
     document.getElementById('page-title').textContent = prod.title + ' | ServitechBA';
     document.getElementById('page-description').setAttribute('content', prod.desc);
+    document.getElementById('page-canonical').setAttribute('href', pageUrl);
+
+    /* OG & Twitter dinámico */
+    var ogTitle = document.getElementById('og-title');
+    var ogDesc  = document.getElementById('og-description');
+    var ogUrl   = document.getElementById('og-url');
+    var twTitle = document.getElementById('tw-title');
+    var twDesc  = document.getElementById('tw-description');
+    if (ogTitle) ogTitle.setAttribute('content', prod.title + ' | ServitechBA');
+    if (ogDesc)  ogDesc.setAttribute('content', prod.desc);
+    if (ogUrl)   ogUrl.setAttribute('content', pageUrl);
+    if (twTitle) twTitle.setAttribute('content', prod.title + ' | ServitechBA');
+    if (twDesc)  twDesc.setAttribute('content', prod.desc);
 
     /* Hero */
     document.getElementById('breadcrumb-name').textContent = prod.title;
