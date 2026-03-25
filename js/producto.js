@@ -99,7 +99,12 @@
       waText:   'Hola%2C%20necesito%20reparar%20mi%20microondas',
       tags:     ['Domésticos', 'Profesionales', 'Con grill', 'Todas las marcas'],
       fallas:   ['No calienta', 'Plato no gira', 'No enciende', 'Chispas internas', 'Pantalla sin luz', 'Puerta no cierra', 'Hace ruidos', 'Funciones bloqueadas'],
-      detail:   'Reparamos microondas de todos los tamaños, marcas y modelos. Cambiamos magnetrón, transformador de alta tensión, motor del plato, teclados y puertas. También disponemos de repuestos para autogestión.'
+      detail:   'Reparamos microondas de todos los tamaños, marcas y modelos. Cambiamos magnetrón, transformador de alta tensión, motor del plato, teclados y puertas. También disponemos de repuestos para autogestión.',
+      brands:   [
+        { name: 'Samsung', img: 'images/marca-samsung.png', brand: 'samsung' },
+        { name: 'LG',      img: 'images/marca-lg.png',      brand: 'lg' },
+        { name: 'Ariston', img: 'images/ariston.png',        brand: 'ariston' }
+      ]
     },
     freezer: {
       title:    'Reparación de Freezers',
@@ -163,6 +168,18 @@
     fallasEl.innerHTML = prod.fallas.map(function(f) {
       return '<li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>' + f + '</li>';
     }).join('');
+
+    /* Marcas: si el producto define brands, mostrar solo esas */
+    var brandsLogos = document.querySelector('.brands-inline__logos');
+    var brandsCloud = document.querySelector('.brands-inline__cloud');
+    if (prod.brands) {
+      brandsLogos.innerHTML = prod.brands.map(function(b) {
+        return '<img src="' + b.img + '" alt="' + b.name + '" class="brand-logo" data-brand="' + b.brand + '">';
+      }).join('');
+      brandsCloud.style.display = 'none';
+    } else {
+      brandsCloud.style.display = '';
+    }
 
     /* Marcar link activo en sidebar */
     document.querySelectorAll('.prod-otros__link').forEach(function(a) {
