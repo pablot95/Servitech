@@ -10,6 +10,14 @@
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://servitechba.com/">
 
+  <link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+  <link rel="apple-touch-icon" href="images/logo.jpeg">
+
+  <meta name="geo.region" content="AR-B">
+  <meta name="geo.placename" content="Buenos Aires">
+  <meta name="geo.position" content="-34.6037;-58.3816">
+  <meta name="ICBM" content="-34.6037, -58.3816">
+
   <meta property="og:type" content="website">
   <meta property="og:title" content="Servitech BA | Reparación y Service de Electrodomésticos en Buenos Aires">
   <meta property="og:description" content="Servitech BA - Service y reparación de electrodomésticos a domicilio. Lavarropas, heladeras, cocinas, aires y más. Diagnóstico sin cargo y garantía por escrito.">
@@ -32,15 +40,31 @@
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Servitech BA - ServitechBA",
-    "alternateName": ["ServitechBA", "Servitech BA", "Servitech Buenos Aires"],
-    "description": "Servitech BA - Servicio técnico y reparación de electrodomésticos a domicilio en Buenos Aires. Service de lavarropas, heladeras, cocinas, aires acondicionados, termotanques, microondas, freezers y más. CABA y GBA.",
+    "@id": "https://servitechba.com/#organization",
+    "name": "ServitechBA - Servitech BA",
+    "alternateName": ["ServitechBA", "Servitech BA", "servitechba", "Servitech Buenos Aires"],
+    "description": "ServitechBA - Servicio técnico y reparación de electrodomésticos a domicilio en Buenos Aires. Service de lavarropas, heladeras, cocinas, aires acondicionados, termotanques, microondas, freezers y más. CABA y GBA.",
     "telephone": ["+541127137063", "+541158993123"],
     "image": "https://servitechba.com/images/logo2.png",
+    "logo": "https://servitechba.com/images/logo2.png",
     "url": "https://servitechba.com",
+    "sameAs": [
+      "https://wa.me/541127137063"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Buenos Aires",
+      "addressRegion": "Buenos Aires",
+      "addressCountry": "AR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -34.6037,
+      "longitude": -58.3816
+    },
     "areaServed": [
-      { "@type": "City", "name": "Buenos Aires" },
-      { "@type": "AdministrativeArea", "name": "GBA" }
+      { "@type": "City", "name": "Buenos Aires", "sameAs": "https://es.wikipedia.org/wiki/Buenos_Aires" },
+      { "@type": "AdministrativeArea", "name": "Gran Buenos Aires" }
     ],
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -63,6 +87,63 @@
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reparación de freezers" } }
       ]
     }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Qué es ServitechBA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ServitechBA (Servitech BA) es un servicio técnico especializado en la reparación de electrodomésticos a domicilio en Buenos Aires. Reparamos lavarropas, heladeras, cocinas, aires acondicionados, termotanques, microondas, freezers, lavavajillas y más en CABA y GBA."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué electrodomésticos repara ServitechBA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "En ServitechBA reparamos lavarropas, heladeras, lavavajillas, cocinas, aires acondicionados, cámaras frigoríficas, anafes, termotanques, microondas y freezers de todas las marcas del mercado."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿ServitechBA ofrece garantía por las reparaciones?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí, en ServitechBA todas las reparaciones incluyen garantía por escrito. Emitimos un comprobante que documenta el trabajo realizado y la garantía correspondiente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuál es la zona de cobertura de ServitechBA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ServitechBA cubre toda la Ciudad Autónoma de Buenos Aires (CABA) y el Gran Buenos Aires (GBA), incluyendo zona norte, zona sur y zona oeste."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuánto cobra ServitechBA por el diagnóstico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El diagnóstico de ServitechBA es sin cargo. Nuestro técnico evalúa el equipo a domicilio y te presupuesta la reparación antes de comenzar el trabajo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cómo contacto a ServitechBA?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Podés contactar a ServitechBA por WhatsApp al 11 2713-7063, por teléfono al 11 2713-7063 o al 11 5899-3123, o completando el formulario en servitechba.com. Atendemos de lunes a sábado de 8 a 20hs."
+        }
+      }
+    ]
   }
   </script>
 </head>
@@ -451,6 +532,53 @@
     </section>
 
 
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="section-head fade-up" style="text-align:center">
+          <span class="section-label">Preguntas frecuentes</span>
+          <h2>Lo que más nos preguntan<br>sobre <span class="text-gold">ServitechBA</span></h2>
+        </div>
+        <div class="faq__list">
+          <details class="faq__item fade-up" style="--delay:.0s">
+            <summary class="faq__question">¿Qué es ServitechBA?</summary>
+            <div class="faq__answer">
+              <p>ServitechBA (Servitech BA) es un servicio técnico especializado en la reparación de electrodomésticos a domicilio en Buenos Aires. Reparamos lavarropas, heladeras, cocinas, aires acondicionados, termotanques, microondas, freezers, lavavajillas y más en CABA y GBA.</p>
+            </div>
+          </details>
+          <details class="faq__item fade-up" style="--delay:.05s">
+            <summary class="faq__question">¿Qué electrodomésticos repara ServitechBA?</summary>
+            <div class="faq__answer">
+              <p>En ServitechBA reparamos lavarropas, heladeras, lavavajillas, cocinas, aires acondicionados, cámaras frigoríficas, anafes, termotanques, microondas y freezers de todas las marcas del mercado.</p>
+            </div>
+          </details>
+          <details class="faq__item fade-up" style="--delay:.1s">
+            <summary class="faq__question">¿ServitechBA ofrece garantía por las reparaciones?</summary>
+            <div class="faq__answer">
+              <p>Sí, en ServitechBA todas las reparaciones incluyen garantía por escrito. Emitimos un comprobante que documenta el trabajo realizado y la garantía correspondiente.</p>
+            </div>
+          </details>
+          <details class="faq__item fade-up" style="--delay:.15s">
+            <summary class="faq__question">¿Cuál es la zona de cobertura de ServitechBA?</summary>
+            <div class="faq__answer">
+              <p>ServitechBA cubre toda la Ciudad Autónoma de Buenos Aires (CABA) y el Gran Buenos Aires (GBA), incluyendo zona norte, zona sur y zona oeste.</p>
+            </div>
+          </details>
+          <details class="faq__item fade-up" style="--delay:.2s">
+            <summary class="faq__question">¿Cuánto cobra ServitechBA por el diagnóstico?</summary>
+            <div class="faq__answer">
+              <p>El diagnóstico de ServitechBA es sin cargo. Nuestro técnico evalúa el equipo a domicilio y te presupuesta la reparación antes de comenzar el trabajo.</p>
+            </div>
+          </details>
+          <details class="faq__item fade-up" style="--delay:.25s">
+            <summary class="faq__question">¿Cómo contacto a ServitechBA?</summary>
+            <div class="faq__answer">
+              <p>Podés contactar a ServitechBA por WhatsApp al 11 2713-7063, por teléfono al 11 2713-7063 o al 11 5899-3123, o completando el formulario en servitechba.com. Atendemos de lunes a sábado de 8 a 20hs.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
 
     <section class="contact" id="contacto">
       <div class="container contact__grid">
