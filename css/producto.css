@@ -214,25 +214,6 @@
 }
 .prod-fallas__grid li svg { color: var(--gold); flex-shrink: 0; }
 
-/* Banner repuestos */
-.prod-repuestos {
-  margin-top: 36px;
-}
-.prod-repuestos__badge {
-  display: flex;
-  gap: 14px;
-  align-items: flex-start;
-  background: var(--dark);
-  border: 1px solid rgba(201,168,76,.22);
-  border-radius: 8px;
-  padding: 20px 24px;
-  color: rgba(255,255,255,.7);
-  font-size: 14px;
-  line-height: 1.65;
-}
-.prod-repuestos__badge svg { color: var(--gold); flex-shrink: 0; margin-top: 2px; }
-.prod-repuestos__badge strong { color: var(--gold-lt); }
-
 /* Sidebar */
 .prod-sidebar { position: sticky; top: 98px; }
 

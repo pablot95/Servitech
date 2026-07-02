@@ -6,34 +6,34 @@
     lavarropas: {
       title:    'Reparación de Lavarropas',
       category: 'Servicio técnico especializado',
-      desc:     'Carga frontal, carga superior y semiautomáticos. Solucionamos todo tipo de fallas con diagnóstico sin cargo, repuestos originales y garantía por escrito en CABA y GBA.',
+      desc:     'Carga frontal, carga superior y semiautomáticos. Solucionamos todo tipo de fallas con diagnóstico sin cargo, componentes de calidad y garantía por escrito en CABA y GBA.',
       img:      'images/lavarropa.jpg',
       imgAlt:   'Reparación de lavarropas a domicilio en Buenos Aires',
       waText:   'Hola%2C%20necesito%20reparar%20mi%20lavarropas',
       tags:     ['Carga frontal', 'Carga superior', 'Semiautomáticos', 'Todas las marcas'],
       fallas:   ['No centrifuga', 'Pierde agua', 'No enciende', 'Errores de pantalla', 'No drena', 'Ruidos extraños', 'No calienta el agua', 'Vibraciones excesivas'],
-      detail:   'Nuestros técnicos llegan a tu domicilio equipados con las herramientas y repuestos más frecuentes para lavarropas. Trabajamos con todas las marcas: Samsung, LG, Whirlpool, Drean, Electrolux, Philco, BGH y muchas más. La mayoría de las reparaciones se resuelven en la primera visita.'
+      detail:   'Nuestros técnicos llegan a tu domicilio equipados con las herramientas y componentes más frecuentes para lavarropas. Trabajamos con todas las marcas: Samsung, LG, Whirlpool, Drean, Electrolux, Philco, BGH y muchas más. La mayoría de las reparaciones se resuelven en la primera visita.'
     },
     heladera: {
       title:    'Reparación de Heladeras',
       category: 'Servicio técnico especializado',
-      desc:     'Familiares, combinadas y No Frost. Diagnóstico preciso en el día, reparación a domicilio con repuestos originales y garantía por escrito.',
+      desc:     'Familiares, combinadas y No Frost. Diagnóstico preciso en el día, reparación a domicilio con componentes de calidad y garantía por escrito.',
       img:      'images/heladera.jpg',
       imgAlt:   'Reparación de heladeras a domicilio en Buenos Aires',
       waText:   'Hola%2C%20necesito%20reparar%20mi%20heladera',
       tags:     ['No Frost', 'Combinadas', 'Familiares', 'Todas las marcas'],
       fallas:   ['No enfría', 'Congela en exceso', 'Hace ruido', 'Pierde agua', 'Luz no enciende', 'Compresor ruidoso', 'Fuga de gas', 'Puerta no cierra'],
-      detail:   'Reparamos heladeras de todas las marcas y modelos. Contamos con técnicos especializados en sistemas de refrigeración, carga de gas, compresores, placas electrónicas y termostatos. Llevamos los repuestos necesarios para resolver tu problema en el día.'
+      detail:   'Reparamos heladeras de todas las marcas y modelos. Contamos con técnicos especializados en sistemas de refrigeración, carga de gas, compresores, placas electrónicas y termostatos. Llevamos los componentes necesarios para resolver tu problema en el día.'
     },
     lavavajillas: {
       title:    'Reparación de Lavavajillas',
       category: 'Servicio técnico especializado',
-      desc:     'No lava correctamente, no drena, errores de código, fallas eléctricas o mecánicas. Técnicos certificados con repuestos en mano.',
+      desc:     'No lava correctamente, no drena, errores de código, fallas eléctricas o mecánicas. Técnicos certificados.',
       img:      'images/lavavajillas.webp',
       waText:   'Hola%2C%20necesito%20reparar%20mi%20lavavajillas',
-      tags:     ['Todas las marcas', 'A domicilio', 'Repuestos originales'],
+      tags:     ['Todas las marcas', 'A domicilio', 'Componentes de calidad'],
       fallas:   ['No enciende', 'No drena el agua', 'No lava correctamente', 'Error en pantalla', 'Pierde agua', 'No cierra la puerta', 'Hace mucho ruido', 'No llena de agua'],
-      detail:   'Nuestros técnicos cuentan con formación específica en lavavajillas de todas las marcas. Reparamos fallas eléctricas, de plomería interna, bombas de desagote, resistencias, placas de control y más. Repuestos disponibles para entrega inmediata.'
+      detail:   'Nuestros técnicos cuentan con formación específica en lavavajillas de todas las marcas. Reparamos fallas eléctricas, de plomería interna, bombas de desagote, resistencias, placas de control y más.'
     },
     cocina: {
       title:    'Reparación de Cocinas',
@@ -71,13 +71,13 @@
     anafe: {
       title:    'Reparación de Anafe',
       category: 'Servicio técnico especializado',
-      desc:     'Anafes a gas e inducción de todas las marcas. Reparación de quemadores, encendido, válvulas y placas. Repuestos disponibles.',
+      desc:     'Anafes a gas e inducción de todas las marcas. Reparación de quemadores, encendido, válvulas y placas.',
       img:      'images/anafes.webp',
       imgAlt:   'Reparación de anafe a gas en Buenos Aires',
       waText:   'Hola%2C%20necesito%20reparar%20mi%20anafe',
       tags:     ['A gas', 'Inducción', 'Vitrocerámica', 'Todas las marcas'],
       fallas:   ['Quemador no enciende', 'Llama irregular', 'Encendido roto', 'Válvula dañada', 'Pérdida de gas', 'Placa de inducción', 'Error de código', 'No reconoce olla'],
-      detail:   'Reparamos anafes a gas, por inducción y vitrocerámica de todas las marcas. Cambiamos chisperos de encendido, válvulas de seguridad, placas electrónicas y quemadores. También tenemos repuestos para que puedas hacer la reparación vos mismo.'
+      detail:   'Reparamos anafes a gas, por inducción y vitrocerámica de todas las marcas. Cambiamos chisperos de encendido, válvulas de seguridad, placas electrónicas y quemadores.'
     },
     termotanque: {
       title:    'Reparación de Termotanque',
@@ -93,13 +93,13 @@
     microondas: {
       title:    'Reparación de Microondas',
       category: 'Servicio técnico especializado',
-      desc:     'Microondas de uso doméstico y profesional. No calienta, no gira, pantalla apagada. Diagnóstico rápido con repuestos disponibles.',
+      desc:     'Microondas de uso doméstico y profesional. No calienta, no gira, pantalla apagada. Diagnóstico rápido.',
       img:      'images/microondas.jpg',
       imgAlt:   'Reparación de microondas a domicilio en Buenos Aires',
       waText:   'Hola%2C%20necesito%20reparar%20mi%20microondas',
       tags:     ['Domésticos', 'Profesionales', 'Con grill', 'Todas las marcas'],
       fallas:   ['No calienta', 'Plato no gira', 'No enciende', 'Chispas internas', 'Pantalla sin luz', 'Puerta no cierra', 'Hace ruidos', 'Funciones bloqueadas'],
-      detail:   'Reparamos microondas de todos los tamaños, marcas y modelos. Cambiamos magnetrón, transformador de alta tensión, motor del plato, teclados y puertas. También disponemos de repuestos para autogestión.',
+      detail:   'Reparamos microondas de todos los tamaños, marcas y modelos. Cambiamos magnetrón, transformador de alta tensión, motor del plato, teclados y puertas.',
       brands:   [
         { name: 'Samsung', img: 'images/marca-samsung.png', brand: 'samsung' },
         { name: 'LG',      img: 'images/marca-lg.png',      brand: 'lg' },

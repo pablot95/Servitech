@@ -131,7 +131,7 @@
     },
     ge: {
       name: 'General Electric',
-      desc: 'Icónica marca americana con más de 100 años en el mercado. Referente mundial en heladeras, lavarropas y aires acondicionados. Tecnología sólida y duradera, con repuestos siempre disponibles para una reparación rápida y económica.',
+      desc: 'Icónica marca americana con más de 100 años en el mercado. Referente mundial en heladeras, lavarropas y aires acondicionados. Tecnología sólida y duradera, con componentes confiables para una reparación rápida y económica.',
     },
     smeg: {
       name: 'SMEG',
