@@ -80,15 +80,15 @@
       detail:   'Reparamos anafes a gas, por inducción y vitrocerámica de todas las marcas. Cambiamos chisperos de encendido, válvulas de seguridad, placas electrónicas y quemadores.'
     },
     termotanque: {
-      title:    'Reparación de Termotanque',
+      title:    'Reparación de Termotanques y Calefones',
       category: 'Servicio técnico especializado',
-      desc:     'Termotanques a gas, eléctricos y solares. Pérdidas, presión, encendido y corrosión. Técnicos habilitados para instalaciones de gas en Buenos Aires.',
+      desc:     'Reparación de termotanques y calefones a gas o eléctricos. Pérdidas, presión, encendido y corrosión. Servicio a domicilio en Buenos Aires.',
       img:      'images/termotanques.webp',
-      imgAlt:   'Reparación de termotanque en Buenos Aires',
-      waText:   'Hola%2C%20necesito%20reparar%20mi%20termotanque',
-      tags:     ['A gas', 'Eléctrico', 'Solar', 'Todas las marcas'],
+      imgAlt:   'Reparación de termotanques y calefones en Buenos Aires',
+      waText:   'Hola%2C%20necesito%20reparar%20un%20termotanque%20o%20calef%C3%B3n',
+      tags:     ['Termotanques', 'Calefones', 'A gas', 'Eléctricos'],
       fallas:   ['No calienta el agua', 'Pérdida de agua', 'Piloto no enciende', 'Válvula de seguridad', 'Ánodo de sacrificio', 'Corrosión interna', 'Poca presión', 'Encendido eléctrico'],
-      detail:   'Nuestros técnicos tienen habilitación para trabajar con instalaciones de gas. Reparamos y hacemos mantenimiento de termotanques a gas, eléctricos y solares de marcas como Rheem, Ariston, Orbis, Peabody, Surrey, Eskabe y más.'
+      detail:   'Reparamos y hacemos mantenimiento de termotanques y calefones a gas o eléctricos. Consultanos por pérdidas, fallas de encendido, presión y corrosión.'
     },
     microondas: {
       title:    'Reparación de Microondas',
@@ -182,18 +182,6 @@
     fallasEl.innerHTML = prod.fallas.map(function(f) {
       return '<li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>' + f + '</li>';
     }).join('');
-
-    /* Marcas: si el producto define brands, mostrar solo esas */
-    var brandsLogos = document.querySelector('.brands-inline__logos');
-    var brandsCloud = document.querySelector('.brands-inline__cloud');
-    if (prod.brands) {
-      brandsLogos.innerHTML = prod.brands.map(function(b) {
-        return '<img src="' + b.img + '" alt="' + b.name + '" class="brand-logo" data-brand="' + b.brand + '">';
-      }).join('');
-      brandsCloud.style.display = 'none';
-    } else {
-      brandsCloud.style.display = '';
-    }
 
     /* Marcar link activo en sidebar */
     document.querySelectorAll('.prod-otros__link').forEach(function(a) {
